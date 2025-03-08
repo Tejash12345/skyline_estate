@@ -76,31 +76,35 @@ const PropertyOverview = ({ propertyId }: PropertyOverviewProps) => {
         <h2 className="text-xl font-semibold mb-5">About {property.name}</h2>
         <p className="text-gray-500 leading-7">
           {property.description}
-          Experience resort style luxury living at Seacrest Homes, where the
-          ocean and city are seamlessly intertwined. Our newly built community
-          features sophisticated two and three-bedroom residences, each complete
-          with high end designer finishes, quartz counter tops, stainless steel
-          whirlpool appliances, office nook, and a full size in-unit washer and
-          dryer. Find your personal escape at home beside stunning swimming
-          pools and spas with poolside cabanas. Experience your very own oasis
-          surrounded by lavish landscaped courtyards, with indoor/outdoor
-          entertainment seating. By day, lounge in the BBQ area and experience
-          the breath taking unobstructed views stretching from the Palos Verdes
-          Peninsula to Downtown Los Angeles, or watch the beauty of the South
-          Bay skyline light up by night. Start or end your day with a workout in
-          our full-size state of the art fitness club and yoga studio. Save the
-          commute and plan your next meeting in the business centers conference
-          room, adjacent to our internet and coffee lounge. Conveniently located
-          near beautiful local beaches with easy access to the 110, 405 and 91
-          freeways, exclusive shopping at the largest mall in the Western United
-          States “The Del Amo Fashion Center” to the hospital of your choice,
-          Kaiser Hospital, UCLA Harbor Medical Center, Torrance Memorial Medical
-          Center, and Providence Little Company of Mary Hospital Torrance rated
-          one of the top 10 Best in Los Angeles. Contact us today to tour and
-          embrace the Seacrest luxury lifestyle as your own. Seacrest Homes
-          Apartments is an apartment community located in Los Angeles County and
-          the 90501 ZIP Code. This area is served by the Los Angeles Unified
-          attendance zone.
+          Experience resort-style luxury living at Seacrest Homes, where nature and modern city life seamlessly blend. Our newly built gated community features sophisticated 2 and 3-BHK residences, each designed with high-end interiors, premium finishes, and world-class amenities.
+
+🏡 Elegant Homes with Premium Features:
+
+Spacious interiors with contemporary architecture
+Modular kitchen with quartz countertops and top-quality stainless steel appliances
+Office nook for work-from-home convenience
+Full-size in-unit washer and dryer for hassle-free laundry
+Designer flooring and elegant lighting fixtures
+🌿 Unmatched Luxury & Serenity:
+Find your personal oasis of comfort beside our stunning swimming pools and spas, complete with poolside cabanas for ultimate relaxation. Experience the beauty of lush landscaped courtyards, complemented by indoor-outdoor entertainment seating and BBQ zones for social gatherings.
+
+🌇 Breathtaking Views & Prime Location:
+Start or end your day in the state-of-the-art fitness club and yoga studio. Enjoy breathtaking views of the surrounding landscapes, with unobstructed skyline panoramas that come alive at night.
+
+👨‍💼 Business & Convenience at Your Doorstep:
+For professionals, Seacrest Homes features a dedicated business center with a conference room, an internet lounge, and a coffee bar, allowing you to work efficiently without long commutes.
+
+📍 Prime Location with Easy Connectivity:
+Conveniently located in Rayadurgam, Anantapur, Andhra Pradesh (PIN Code: 515865), Seacrest Homes provides easy access to major highways, shopping centers, healthcare facilities, and entertainment hubs.
+
+Nearby Cities: Anantapur, Bengaluru, Hyderabad
+Education: Top-rated schools & colleges in the vicinity
+Healthcare: Close to major hospitals like KIMS, Apollo, and Government General Hospital
+Shopping & Entertainment: Access to leading malls, markets, and cultural hubs
+Connectivity: Well-connected to major highways, railway stations, and upcoming metro projects
+🌟 Live the Seacrest Luxury Lifestyle!
+Schedule a visit today and embrace a lifestyle of sophistication, comfort, and convenience. Seacrest Homes is more than just a residence—it’s a dream home redefined.
+<div>📞 Contact us today for a tour!</div>
         </p>
       </div>
     </div>

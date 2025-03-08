@@ -207,20 +207,20 @@ export const createProperty = async (
     } = req.body;
 
     const photoUrls = await Promise.all(
-      files.map(async (file) => {
-        const uploadParams = {
-          Bucket: process.env.S3_BUCKET_NAME!,
-          Key: `properties/${Date.now()}-${file.originalname}`,
-          Body: file.buffer,
-          ContentType: file.mimetype,
-        };
+     files.map(async (file) => {
+       const uploadParams = {
+         Bucket: process.env.S3_BUCKET_NAME!,
+         Key: `properties/${Date.now()}-${file.originalname}`,
+         Body: file.buffer,
+        ContentType: file.mimetype,
+       };
 
-        const uploadResult = await new Upload({
-          client: s3Client,
+       const uploadResult = await new Upload({
+         client: s3Client,
           params: uploadParams,
         }).done();
 
-        return uploadResult.Location;
+       return uploadResult.Location;
       })
     );
 
